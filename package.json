@@ -1,0 +1,13 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:prod": "docker build . -t proxy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
